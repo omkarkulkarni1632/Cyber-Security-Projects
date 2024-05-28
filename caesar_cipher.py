@@ -64,5 +64,5 @@ result_var = tk.StringVar()
 tk.Label(root, text="Result:").grid(row=4, column=0, padx=10, pady=10)
 tk.Entry(root, textvariable=result_var, width=50, state="readonly").grid(row=4, column=1, padx=10, pady=10)
 
-# Start the Tkinter event loop
+# Start the Tkinter event loop and also end of the code 
 root.mainloop()
