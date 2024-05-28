@@ -4,7 +4,7 @@ from PIL import Image, ImageTk
 import numpy as np
 
 def encrypt_image(image_path, key):
-    # Open the image
+    # Open the image path not secure soaaaryab 
     img = Image.open(image_path)
     img = img.convert('RGB')  # Ensure image is in RGB format
     
